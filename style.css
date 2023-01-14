@@ -11,3 +11,10 @@
       Secondary color: #ffc078
       Grey color: #e6fcf5
 */
+
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
