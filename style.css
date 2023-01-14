@@ -98,3 +98,26 @@ img {
     width: 24px;
     stroke: #a61e4d;
 }
+
+.dots {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 32px);
+
+    display: flex;
+    gap: 12px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #ffffff;
+    border: 2px solid #d9480f;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot--fill {
+    background-color: #d9480f;
+}
